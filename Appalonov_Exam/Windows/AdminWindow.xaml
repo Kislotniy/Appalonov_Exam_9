@@ -1,0 +1,25 @@
+﻿<Window x:Class="Appalonov_Exam.Windows.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Appalonov_Exam.Windows"
+        mc:Ignorable="d"
+        Title="AdminWindow" Height="450" Width="800">
+    <Grid Background="#FF3E3939">
+        <ListView x:Name="ListPhones" Width="600" Height="300" Margin="50" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBox Margin="10" Text="{Binding Name_User}"/>
+                        <TextBox Margin="10" Text="{Binding Password_User}"/>
+                        <TextBox Margin="10" Text="{Binding Phone_User}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Content="Обновить" HorizontalAlignment="Left" Margin="613,372,0,0" VerticalAlignment="Top" Height="33" Width="87" Click="Button_Click"/>
+        <Button Content="Сохранить" HorizontalAlignment="Left" Margin="529,372,0,0" VerticalAlignment="Top" Height="33" Width="79" Click="Button_Click_1"/>
+        <Button Content="Добавить клиента" HorizontalAlignment="Left" Margin="414,372,0,0" VerticalAlignment="Top" Height="33" Width="110" Click="Button_Click_2"/>
+    </Grid>
+</Window>

@@ -1,0 +1,20 @@
+﻿<Window x:Class="Appalonov_Exam.Windows.AddUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Appalonov_Exam.Windows"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="AddUser" Height="450" Width="450">
+    <Grid>
+        <TextBox x:Name="TName" Width="250" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,-200,0,0" FontSize="16"/>
+        <TextBox x:Name="TPassword" Width="250" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,-100,0,0" FontSize="16"/>
+        <TextBox x:Name="TPhone" Width="250" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0" FontSize="16"/>
+        <TextBlock Text="Name" x:Name="TbName" Width="250" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,-230,0,0" FontSize="10"/>
+        <TextBlock Text="Password" x:Name="TbPassword" Width="250" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,-130,0,0" FontSize="10"/>
+        <TextBlock  Text="Phone" x:Name="TbPhone" Width="250" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,-30,0,0" FontSize="10"/>
+        <Button Content="Добавить" HorizontalAlignment="Center" Margin="0,257,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+
+    </Grid>
+</Window>

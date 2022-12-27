@@ -1,0 +1,23 @@
+﻿<Window x:Class="Appalonov_Exam.Windows.buyphone"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Appalonov_Exam.Windows"
+        mc:Ignorable="d"
+        Title="buyphone" Height="450" Width="800">
+    
+        <Grid Background="#FFE1F526">
+            <ListView x:Name="ListPhones" Width="600" Height="300" Margin="50" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal">
+                            <TextBlock Margin="10" Text="{Binding Phones.Name_Phone}"/>
+                            <TextBlock Margin="10" Text="{Binding PhonesType.Name_Type}"/>
+                            <TextBlock Margin="10" Text="{Binding DateBuy}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </Grid>
+</Window>

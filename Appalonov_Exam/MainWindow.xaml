@@ -5,8 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Appalonov_Exam"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        WindowStartupLocation="CenterScreen"
+        Title="Autharization" Height="450" Width="800">
     <Grid>
-        
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="White"/>
+                <GradientStop Color="#FFEAFF93" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Label Content="Login" Width="250"  Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,-270,0,0" FontSize="16"/>
+        <TextBox x:Name="TLogin" Width="250" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,-200,0,0" FontSize="16"/>
+        <Label Content="Password" Width="250"  Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,-70,0,0" FontSize="16"/>
+        <PasswordBox x:Name="TPassword" Width="250" Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,0,0,0" FontSize="16"/>
+        <Button Content="Login" Width="250"  Height="30" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="0,100,0,0" FontSize="16" BorderBrush="Red" Background="#FFC2FF7C" Click="Button_Click"/>
     </Grid>
 </Window>
