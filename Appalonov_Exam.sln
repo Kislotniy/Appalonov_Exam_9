@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Appalonov_Exam", "Appalonov_Exam\Appalonov_Exam.csproj", "{BBA732EB-D71A-4423-8A9C-301FF90D33F3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBA732EB-D71A-4423-8A9C-301FF90D33F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBA732EB-D71A-4423-8A9C-301FF90D33F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBA732EB-D71A-4423-8A9C-301FF90D33F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBA732EB-D71A-4423-8A9C-301FF90D33F3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8EB6CA78-2E7F-4EBE-B678-6C16D58F7052}
+	EndGlobalSection
+EndGlobal
